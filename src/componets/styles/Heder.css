@@ -1,0 +1,44 @@
+header{
+    background-color: #000;
+}
+@media only screen and (max-width: 600px) {
+   /* NavigationMenu.css */
+.navigation-menu {
+    position: relative;
+  }
+  
+  .menu-button {
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .open ul {
+    display: block;
+  }
+  
+  ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc; 
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .navbar {
+    display: none;
+   }
+  
+  }
+  @media only screen and (min-width: 600px) {
+    .navigation-menu {
+       display: none;
+      }
+  }
