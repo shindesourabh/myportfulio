@@ -1,5 +1,5 @@
 import React, { useState, use } from "react";
-
+import './styles/ProjectDetails.css'
 const ProjectDetail = () => {
     const transition = "transform: translate3d(-2944px, 0px, 0px); transition-duration: 0ms;"
     const bagroundImage = "background-image: url(assets/img/overlay-bg.jpg)"
@@ -25,42 +25,16 @@ const ProjectDetail = () => {
 
                     <div class="row gy-12">
 
-                        {/* <div class="col-lg-8">
-                            <div class="portfolio-details-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                                <div class="swiper-wrapper align-items-center" id="swiper-wrapper-fcf769fca5d0febf" aria-live="off" style={{transition}}><div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style={{width:'736px'}}>
-                                    <img src="assets/img/portfolio-details-3.jpg" alt="" />
-                                </div>
-
-                                    <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3"  style={{width:'736px'}}
-                                    >
-                                        <img src="assets/img/portfolio-details-1.jpg" alt="" />
-                                    </div>
-
-                                    <div class="swiper-slide" data-swiper-slide-index="1" role="group" aria-label="2 / 3" style={{width:'736px'}}>
-                                        <img src="assets/img/portfolio-details-2.jpg" alt="" />
-                                    </div>
-
-                                    <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style={{width:'736px'}}>
-                                        <img src="assets/img/portfolio-details-3.jpg" alt="" />
-                                    </div>
-
-                                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style={{width:'736px'}}>
-                                        <img src="assets/img/portfolio-details-1.jpg" alt="" />
-                                    </div></div>
-                                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
-                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                        </div> */}
-
                         <div class="col-lg-12">
                             <h3>Project information</h3>
 
                             <div class="portfolio-info" style={{ border: 'solid 1px' }}>
-                                <ul>
-                                    <li><strong>Project Name</strong>: Bio-path India</li>
-                                    <li><strong>Fremwork</strong>: Angular</li>
-                                    <li><strong>Language</strong>: Html ,Css, TypeScript & JavaScript</li>
-                                    <li><strong>Project URL</strong>: <a href="https://biopathindia.com/" target="_blank" style={{color:'blue'}}>https://biopathindia.com/</a></li>
-                                </ul>
+                                <p><strong>Project Name</strong>: Bio-path India</p>
+                                <p><strong>Fremwork</strong>: Angular</p>
+                                <p><strong>Language</strong>: Html ,Css, TypeScript & JavaScript</p>
+                                <p><strong>Project URL</strong>: <a href="https://biopathindia.com/" target="_blank" style={{color:'blue'}}>https://biopathindia.com/</a></p>
+
+
                                 <div class="portfolio-description">
                                     <h2>Project detail</h2>
                                     <p>
@@ -73,12 +47,11 @@ const ProjectDetail = () => {
                             <div class="col-lg-12">
                                 <h3>Project information</h3>
                                 <div class="portfolio-info" style={{ border: 'solid 1px' }}>
-                                    <ul>
-                                        <li><strong>Project Name</strong>: Bodhisatva Tv (Mobile App)</li>
-                                        <li><strong>Fremwork</strong>: Ionic</li>
-                                        <li><strong>Language</strong>: Html, Css, TypeScript & Javascript</li>
-                                        <li><strong>Project URL</strong>: <a href="https://play.google.com/store/apps/details?id=com.Oceansottech.bodhisatva_Tv" target="_blank" style={{color:'blue'}}>Link Here</a></li>
-                                    </ul>
+                            
+                                        <p><strong>Project Name</strong>: Bodhisatva Tv (Mobile App)</p>
+                                        <p><strong>Fremwork</strong>: Ionic</p>
+                                        <p><strong>Language</strong>: Html, Css, TypeScript & Javascript</p>
+                                        <p><strong>Project URL</strong>: <a href="https://play.google.com/store/apps/details?id=com.Oceansottech.bodhisatva_Tv" target="_blank" style={{color:'blue'}}>Link Here</a></p>
                                     <div class="portfolio-description">
                                     <h2>Project detail</h2>
                                       <p>
@@ -94,12 +67,10 @@ const ProjectDetail = () => {
                             <div class="col-lg-12">
                                 <h3>Project information</h3>
                                 <div class="portfolio-info" style={{ border: 'solid 1px' }}>
-                                    <ul>
-                                        <li><strong>Project Name</strong>: KME Book World Records</li>
-                                        <li><strong>Fremwork</strong>: Angular</li>
-                                        <li><strong>Language</strong>: Html, Css, TypeScript & Javascript</li>
-                                        <li><strong>Project URL</strong>: <a href="https://kmeibwr.com/recordgallery" target="_blank" style={{color:'blue'}}>https://kmeibwr.com/recordgallery</a></li>
-                                    </ul>
+                                        <p><strong>Project Name</strong>: KME Book World Records</p>
+                                        <p><strong>Fremwork</strong>: Angular</p>
+                                        <p><strong>Language</strong>: Html, Css, TypeScript & Javascript</p>
+                                        <p><strong>Project URL</strong>: <a href="https://kmeibwr.com/recordgallery" target="_blank" style={{color:'blue'}}>https://kmeibwr.com/recordgallery</a></p>
                                     <div class="portfolio-description">
                                         <h2>Project detail</h2>
                                         <p>
